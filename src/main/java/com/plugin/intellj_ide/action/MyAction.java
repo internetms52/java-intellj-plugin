@@ -1,4 +1,4 @@
-package com.plugin.intelljideplugin.action;
+package com.plugin.intellj_ide.action;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;

@@ -18,6 +18,16 @@
     <em>most HTML tags may be used</em>
   ]]></description>
 
+    <actions>
+        <action
+                id="org.intellij.sdk.action.PopupDialogAction"
+                class="com.plugin.intellj_ide.action.MyAction"
+                text="Create Test"
+                description="SDK action example">
+            <add-to-group group-id="EditorPopupMenu" />
+        </action>
+    </actions>
+
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
